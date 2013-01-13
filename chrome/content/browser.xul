@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml" id="transight-overlay">
+
+    <script type="application/x-javascript" src="chrome://transight/content/index.js"></script>
+
+    <statusbar id="status-bar">
+        <statusbarpanel insertafter="statusbar-progresspanel" context="transight-menu">
+            <image id="transight-statusicon" style="cursor:pointer;"
+                src="chrome://transight/content/icon.png"
+            	tooltiptext="Run TranSight"
+            	onclick="if(!event.button) { transight.run() }"
+            	/>
+		</statusbarpanel>
+
+        <menupopup id="transight-menu">
+            <menuitem label="TranSight Homepage" oncommand="transight.goHome()"/>
+            <menuitem label="About" oncommand="transight.showAbout()" />
+            <menuseparator/>
+            <menuitem label="Run TranSight" oncommand="transight.run()" />
+        </menupopup>
+
+	</statusbar>
+
+</overlay>

@@ -1,0 +1,3 @@
+content     transight    chrome/content/
+overlay     chrome://browser/content/browser.xul    chrome://transight/content/browser.xul
+resource    lib    lib/
