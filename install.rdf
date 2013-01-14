@@ -7,7 +7,7 @@
                    em:minVersion="1"
                    em:maxVersion="23.*" />
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
-                   em:id="friendkey@gmail.com"
+                   em:id="transight@zhirui.org"
                    em:name="TranSight"
                    em:version="1.0"
                    em:creator="Reno Ren; http://zhirui.org"

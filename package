@@ -1,0 +1,5 @@
+rm -f transight@zhirui.org.xpi
+zip -r transight@zhirui.org.xpi chrome chrome.manifest defaults install.rdf lib
+if [ -e ext_folder ]; then
+  mv transight@zhirui.org.xpi ext_folder/
+fi
