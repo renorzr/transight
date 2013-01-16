@@ -13,7 +13,7 @@
 		</statusbarpanel>
 
         <menupopup id="transight-menu">
-            <menuitem label="TranSight Homepage" oncommand="transight.goHome()"/>
+            <menuitem label="TranSight Homepage" oncommand="window.openDialog('chrome://transight/content/options.xul')"/>
             <menuitem label="About" oncommand="transight.showAbout()" />
             <menuseparator/>
             <menuitem label="Run TranSight" oncommand="transight.run()" />
